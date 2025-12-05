@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_main.css">
+    <link rel="stylesheet" href="AI/ai-chat.css">
+    <link rel="stylesheet" href="audio/style.css">
+    <link rel="icon" sizes="32x32" href="/icons/i32.png">
+    <link rel="icon" sizes="180x180" href="/icons/i180.png">
+    <title>NIRD</title>
+    <meta name="description" content="Découvrez le NIRD : une démarche pour un numérique Inclusif, Responsable et Durable au sein des établissements scolaires.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="preloader" class="preloader" aria-label="Chargement en cours">
+        <img src="img/preloader.gif" style="width: 50vh; height: auto;" alt="Chargement...">
+    </div>
+    <header id="top">
+        <div class="header-content">
+            <div class="logo">NIRD</div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#nird">Description</a></li>
+                    <li><a href="#legislation">Cadre Légal</a></li>
+                    <li><a href="#outils">Outils</a></li>
+                    <li><a href="#video">Vidéo</a></li>
+                    <li><a href="#bienfaits">Bienfaits</a></li>
+                    <li><a href="#visualisateuraudio" class="audio-nav-link">🎵 Audio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="img/img_main/background.png" alt="" class="hero-background">
+        <div class="hero-content">
+            <img src="img/img_main/icone.png" alt="NIRD" class="hero-icon">
+            <h1>Numérique Inclusif Responsable et Durable</h1>
+            <p class="hero-subtitle">Le nouveau paradigme pour une transition numérique éthique et résiliente</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="nird">
+            <h2>🎯 Qu'est-ce que le NIRD ?</h2>
+            <p class="intro-text">
+                Le NIRD n'est pas une simple tendance, c'est une approche systémique qui réconcilie la technologie avec les limites planétaires et les droits humains. Il structure la transformation numérique des organisations autour de trois piliers indissociables :
+            </p>
+
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <h3>1. Inclusif</h3>
+                    <p class="subtitle">L'Humain au centre</p>
+                    <p><strong>Le numérique ne doit laisser personne de côté.</strong></p>
+                    <ul>
+                        <li><strong>L'enjeu :</strong> Combattre l'illectronisme qui touche 15,7 % de la population française et garantir l'accès aux droits.</li>
+                        <li><strong>L'action :</strong> Rendre les services accessibles aux personnes en situation de handicap (visuel, moteur, cognitif) et accompagner les usagers éloignés du numérique via la médiation.</li>
+                        <li><strong>La norme clé :</strong> Le RGAA (Référentiel Général d'Amélioration de l'Accessibilité). Le non-respect est désormais sanctionné jusqu'à 50 000 €.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card">
+                    <h3>2. Responsable</h3>
+                    <p class="subtitle">Éthique & Souveraineté</p>
+                    <p><strong>Un numérique loyal qui protège les données et les démocraties.</strong></p>
+                    <ul>
+                        <li><strong>L'enjeu :</strong> Maîtriser ses données face aux lois extraterritoriales (Cloud Act) et garantir la loyauté des algorithmes (refus des biais discriminatoires).</li>
+                        <li><strong>L'action :</strong> Adopter le "Privacy by Design", privilégier l'Open Source pour la transparence et choisir des hébergements souverains.</li>
+                        <li><strong>La norme clé :</strong> Le RGPD pour les données personnelles et la qualification SecNumCloud (ANSSI) pour la souveraineté de l'hébergement.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card">
+                    <h3>3. Durable</h3>
+                    <p class="subtitle">Sobriété Environnementale</p>
+                    <p><strong>Réduire l'empreinte matérielle et énergétique.</strong></p>
+                    <ul>
+                        <li><strong>L'enjeu :</strong> La fabrication des terminaux représente jusqu'à 79 % de l'empreinte carbone du numérique. Il faut sortir du "tout-jetable".</li>
+                        <li><strong>L'action :</strong> Allonger la durée de vie des équipements, acheter reconditionné, et écoconcevoir les services pour qu'ils tournent sur du matériel ancien.</li>
+                        <li><strong>La norme clé :</strong> Le RGESN (Référentiel Général d'Écoconception de Services Numériques) et ses 78 critères de sobriété.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="photo-section">
+                <img src="img/img_main/photo.jpg" alt="Distribution de 14 PC PrimTux, reconditionnés par les élèves du club informatique du lycée Carnot, à l’école primaire de Fouquières-lès-Béthune.">
+                <p class="photo-caption">Distribution de 14 PC PrimTux, reconditionnés par les élèves du club informatique du lycée Carnot, à l’école primaire de Fouquières-lès-Béthune.</p>
+            </div>
+        </section>
+
+        <section id="legislation">
+            <h2>⚖️ Le Cadre Légal : Pourquoi agir maintenant ?</h2>
+            <p class="intro-text">
+                La France dispose de l'un des cadres législatifs les plus avancés au monde, transformant ces engagements volontaires en obligations légales.
+            </p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Loi / Règlement</th>
+                            <th>Obligations pour les Organisations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Loi REEN (2021)</strong></td>
+                            <td>Oblige les collectivités (>50k hab.) à définir une stratégie numérique responsable. Promeut l'écoconception et limite le renouvellement des terminaux.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Loi AGEC (2020)</strong></td>
+                            <td>Impose un taux d'achat public issu du réemploi (20%), l'indice de réparabilité sur les produits, et lutte contre l'obsolescence logicielle.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RGPD & AI Act</strong></td>
+                            <td>Encadrent strictement la collecte de données et l'usage de l'Intelligence Artificielle (classification des risques).</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="highlight-box">
+                <strong>⚠️ Important :</strong> Ces lois ne sont pas de simples recommandations. Le non-respect peut entraîner des sanctions financières significatives et des risques juridiques pour votre organisation.
+            </div>
+        </section>
+
+        <section id="outils">
+            <h2>🛠️ La Boîte à Outils du NIRD</h2>
+            <p class="intro-text">
+                Pour passer de la théorie à la pratique, les organisations s'appuient sur des référentiels éprouvés.
+            </p>
+
+            <h3>Le Label Numérique Responsable (Label NR)</h3>
+            <div class="highlight-box">
+                Piloté par l'Institut du Numérique Responsable (INR), il certifie la démarche d'une organisation à travers 14 principes d'action répartis en 4 axes : <strong>Stratégie, Soutien, Cycle de vie, et Extension de la démarche</strong>. C'est la boussole stratégique de référence.
+            </div>
+
+            <h3>L'Écosystème d'Accompagnement</h3>
+            <div class="tools-list">
+                <ul>
+                    <li>
+                        <strong>ADEME :</strong> Méthodologies de calcul d'empreinte et financement pour accompagner votre transition.
+                    </li>
+                    <li>
+                        <strong>DINUM :</strong> Pilotage de la stratégie de l'État et outils pour les services publics ("Tech.gouv").
+                    </li>
+                    <li>
+                        <strong>ANSSI :</strong> Sécurisation et souveraineté des infrastructures numériques.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>📺 Découvrez le NIRD en vidéo</h2>
+            <p class="intro-text">
+            Une présentation complète du Numérique Inclusif, Responsable et Durable et de ses enjeux.
+            </p>
+    
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9dbJ5VdzITM?si=AiJsd30nELZlPCu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="bienfaits">
+            <h2>🚀 Les Bénéfices pour votre Organisation</h2>
+            <p class="intro-text">
+                Adopter une stratégie NIRD n'est pas seulement une contrainte réglementaire, c'est un levier de performance globale qui transforme les risques en opportunités.
+            </p>
+
+            <div class="pillars-grid">
+                
+                <div class="pillar-card">
+                    <h3>💰 Économique</h3>
+                    <p class="subtitle">Rationalisation & Sobriété</p>
+                    <p><strong>Réduisez vos coûts de fonctionnement.</strong></p>
+                    <ul>
+                        <li><strong>Matériel :</strong> L'achat reconditionné coûte 30% à 70% moins cher que le neuf.</li>
+                        <li><strong>Amortissement :</strong> Allonger la durée de vie de 3 à 5 ans lisse les investissements.</li>
+                        <li><strong>Énergie :</strong> La sobriété des usages réduit la facture électrique.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card">
+                    <h3>🎯 RSE & Image</h3>
+                    <p class="subtitle">Attractivité & Sens</p>
+                    <p><strong>Devenez une organisation attractive.</strong></p>
+                    <ul>
+                        <li><strong>Talents :</strong> Les jeunes diplômés privilégient les entreprises engagées.</li>
+                        <li><strong>Image :</strong> Renforcez votre marque employeur et votre réputation.</li>
+                        <li><strong>Sens :</strong> Fédérez vos équipes autour d'un projet éthique.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card">
+                    <h3>🛡️ Résilience</h3>
+                    <p class="subtitle">Souveraineté & Maîtrise</p>
+                    <p><strong>Ne subissez plus les crises.</strong></p>
+                    <ul>
+                        <li><strong>Pénuries :</strong> Moindre dépendance aux chaînes d'approvisionnement asiatiques.</li>
+                        <li><strong>Données :</strong> Meilleure maîtrise des données critiques (hébergement local).</li>
+                        <li><strong>Sécurité :</strong> Un parc maîtrisé est plus simple à sécuriser.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card">
+                    <h3>✅ Conformité</h3>
+                    <p class="subtitle">Sérénité Juridique</p>
+                    <p><strong>Soyez en règle avant les sanctions.</strong></p>
+                    <ul>
+                        <li><strong>Risques :</strong> Anticipation des risques juridiques (Loi REEN, AGEC).</li>
+                        <li><strong>Accessibilité :</strong> Conformité au RGAA et inclusion de tous les publics.</li>
+                        <li><strong>RGPD :</strong> Respect strict de la vie privée des usagers.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="highlight-box">
+                <strong>En résumé :</strong> Le NIRD transforme le numérique d'une source de pollution et d'exclusion en un levier de transition écologique et sociale.
+            </div>
+        </section>
+        <section id="visualisateuraudio" style="padding-top: 2rem;">
+            <div class="visualizer" style="text-align: center; margin-top: 3rem;">
+                <h2 style="margin-bottom: 1rem;">🎵 Visualisateur Audio</h2>
+                <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">Transformez votre musique en art visuel</p>
+                <button id="btn-audio" onclick="ouvrirInterface()" class="audio-launch-btn">Accéder au Visualisateur Audio</button>
+            </div>
+            <div id="audio-modal" class="audio-modal hidden" aria-hidden="true">
+                <div class="audio-modal__overlay"></div>
+                <div class="audio-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="audio-modal-title">
+                    <div class="audio-modal__header">
+                        <div class="audio-modal__title">
+                            <span class="pill">Studio Audio</span>
+                            <span id="audio-modal-title">Glissez un son ou ouvrez le micro</span>
+                        </div>
+                        <button class="icon-btn" id="audio-close" aria-label="Fermer">×</button>
+                    </div>
+
+                        <div class="audio-modal__body">
+                            <div class="upload-panel" id="drop-zone">
+                                <input type="file" id="file-input" accept="audio/*" hidden>
+                                <div class="upload-panel__cta">
+                                    <p class="muted">Déposez un fichier audio ici</p>
+                                    <div class="upload-panel__actions">
+                                        <button class="primary" id="file-picker">
+                                            <span class="sparkle">✨</span>
+                                            Choisir un fichier
+                                        </button>
+                                        <span class="muted">ou</span>
+                                        <button class="ghost" id="mic-toggle">Micro en direct</button>
+                                    </div>
+                                    <p class="hint" id="source-label">Aucune source sélectionnée</p>
+                                </div>
+                            </div>
+
+                            <div class="player">
+                                <audio id="audio-player" controls></audio>
+                                <canvas id="visualizer" width="960" height="240"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal')">&times;</span>
+            
+            <div class="header-container">
+                <div class="score-box">
+                    <div class="score-label">Score</div>
+                    <div class="score-value" id="score">0</div>
+                </div>
+                <div class="pixel-neon">SNAKE</div>
+                <button id="restartButton" onclick="restartGame()" class="pixel-neon" style="padding: 12px 24px; background: transparent; border: 3px solid #0ff; cursor: pointer; font-size: 16px; transition: all 0.3s; margin-left: 30px;">RESTART</button>
+            </div>
+            
+            <style>
+                #restartButton:hover {
+                    background: rgba(0, 255, 255, 0.1);
+                    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, inset 0 0 10px #0ff;
+                    transform: scale(1.05);
+                    border-color: #0ff;
+                }
+            </style>
+            
+            <div class="game-zone">
+                <canvas id="game"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p style="font-family: 'Courier New', monospace; font-size: 1.1rem;">
+                &copy; 2025 <code style="color: #ff6200;"> printf("Les Kasausses\n");</code> |</span> <code>i++;</code>
+            </p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">
+                Projet sous licence <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" style="color: #ff6200; text-decoration: underline;">GPL 3.0</a>
+            </p>
+            <a href="#top" class="back-to-top">↑ Retour en haut</a>
+        </div>
+    </footer>
+
+    <div id="aiChat" class="ai-chat">
+        <button id="chatButton" class="chat-button" aria-label="Ouvrir le chat">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H6L4 18V4H20V16Z" fill="white"/>
+                <path d="M7 9H17V11H7V9ZM7 6H17V8H7V6ZM7 12H14V14H7V12Z" fill="white"/>
+            </svg>
+        </button>
+
+        <div id="chatWindow" class="chat-window" aria-live="polite">
+            <div class="chat-header">
+                <h3>Assistant Stupide</h3>
+                <button id="closeButton" class="close-button" aria-label="Fermer le chat">&times;</button>
+            </div>
+            <div id="chatMessages" class="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">Bonjour! Comment puis-je ne pas vous aider</div>
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" id="userInput" class="chat-input" placeholder="Vous avez du temps à perdre ?" aria-label="Saisissez votre message" />
+                <button id="sendButton" class="send-button" aria-label="Envoyer le message">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" fill="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    // Preloader hide on full load
+    window.addEventListener('load', () => {
+        const preloader = document.getElementById('preloader');
+        if (!preloader) return;
+        preloader.classList.add('hide');
+        setTimeout(() => preloader.remove(), 600);
+    });
+
+    // Mobile menu toggle
+    const initMobileMenu = () => {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+
+        if (menuToggle && navMenu) {
+            menuToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                menuToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            // Close menu when clicking on a link
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (navMenu.classList.contains('active') && 
+                    !menuToggle.contains(e.target) && 
+                    !navMenu.contains(e.target)) {
+                    menuToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                }
+            });
+        }
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    } else {
+        initMobileMenu();
+    }
+</script>
+
+<script src="AI/ai-chat.js"></script>
+<script src="audio/main.js"></script>
+
+<script>
+        // Ouvrir la modale
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.style.display = 'block';
+
+            // Wait one frame so the modal lays out, then size the canvas
+            requestAnimationFrame(() => {
+                resizeCanvas();
+                document.getElementById("score").textContent = score;
+            });
+        }
+
+        // Fermer la modale
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+
+        // Fermer la modale si on clique en dehors
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        }
+
+        // Code secret : Haut Bas Haut Bas Gauche Droite Gauche Droite
+        let CodeSecret = ['ArrowUp', 'ArrowDown', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight'];
+        let secretIndex = 0;
+
+
+        const canvas = document.getElementById("game");
+        const ctx = canvas.getContext("2d");
+
+        const cellSize = 50;
+        let gridWidth = 0;
+        let gridHeight = 0;
+
+        let direction = "RIGHT";
+        let coords = [
+        { x: 1, y: 7 },
+        { x: 2, y: 7 },
+        { x: 3, y: 7 }
+        ];
+
+        let started = false;
+
+        let coordsapple = { x: 0 , y: 0};
+
+        let score = 0;
+
+        function resizeCanvas() {
+            const zone = document.querySelector('.game-zone');
+            const rect = zone.getBoundingClientRect();
+
+            canvas.width = Math.floor(rect.width);
+            canvas.height = Math.floor(rect.height);
+
+            gridWidth = Math.max(5, Math.floor(canvas.width / cellSize));
+            gridHeight = Math.max(5, Math.floor(canvas.height / cellSize));
+
+            // clamp snake positions inside bounds
+            coords = coords.map(({ x, y }) => ({
+                x: Math.min(gridWidth - 1, Math.max(0, x)),
+                y: Math.min(gridHeight - 1, Math.max(0, y))
+            }));
+
+            apple();
+            draw();
+        }
+
+        function apple() {
+            while (true){
+                coordsapple.x = Math.floor(Math.random() * gridWidth);
+                coordsapple.y = Math.floor(Math.random() * gridHeight);
+                let onSnake = false;
+
+                for (let valeur of coords){
+                    if (valeur.x == coordsapple.x && valeur.y == coordsapple.y){
+                        onSnake = true;
+                        break;
+                    }
+                }
+                if (!onSnake) {
+                    return;
+                }
+            }
+        }
+
+        function draw() {
+            // Background avec dégradé
+            const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+            gradient.addColorStop(0, "#1a1a2e");
+            gradient.addColorStop(1, "#0f0f1e");
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Grille subtile
+            ctx.strokeStyle = "rgba(255, 255, 255, 0.05)";
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= gridWidth; i++) {
+                ctx.beginPath();
+                ctx.moveTo(i * cellSize, 0);
+                ctx.lineTo(i * cellSize, canvas.height);
+                ctx.stroke();
+            }
+            for (let j = 0; j <= gridHeight; j++) {
+                ctx.beginPath();
+                ctx.moveTo(0, j * cellSize);
+                ctx.lineTo(canvas.width, j * cellSize);
+                ctx.stroke();
+            }
+
+            // Dessiner le snake avec dégradé et ombres
+            for (let i = 0; i < coords.length; i++) {
+                const valeur = coords[i];
+                const isHead = (i === coords.length - 1);
+                
+                // Ombre
+                ctx.shadowColor = "rgba(0, 255, 0, 0.5)";
+                ctx.shadowBlur = 15;
+                ctx.shadowOffsetX = 0;
+                ctx.shadowOffsetY = 0;
+                
+                // Dégradé vert
+                const segmentGradient = ctx.createRadialGradient(
+                    valeur.x * cellSize + cellSize / 2,
+                    valeur.y * cellSize + cellSize / 2,
+                    0,
+                    valeur.x * cellSize + cellSize / 2,
+                    valeur.y * cellSize + cellSize / 2,
+                    cellSize / 2
+                );
+                
+                if (isHead) {
+                    segmentGradient.addColorStop(0, "#00ff88");
+                    segmentGradient.addColorStop(1, "#00cc66");
+                } else {
+                    segmentGradient.addColorStop(0, "#00dd77");
+                    segmentGradient.addColorStop(1, "#00aa55");
+                }
+                
+                ctx.fillStyle = segmentGradient;
+                
+                // Rectangle arrondi
+                const x = valeur.x * cellSize + 2;
+                const y = valeur.y * cellSize + 2;
+                const width = cellSize - 4;
+                const height = cellSize - 4;
+                const radius = 8;
+                
+                ctx.beginPath();
+                ctx.moveTo(x + radius, y);
+                ctx.lineTo(x + width - radius, y);
+                ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+                ctx.lineTo(x + width, y + height - radius);
+                ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+                ctx.lineTo(x + radius, y + height);
+                ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+                ctx.lineTo(x, y + radius);
+                ctx.quadraticCurveTo(x, y, x + radius, y);
+                ctx.closePath();
+                ctx.fill();
+                
+                // Dessiner la tête avec yeux et langue
+                if (isHead) {
+                    ctx.shadowBlur = 0;
+                    const centerX = valeur.x * cellSize + cellSize / 2;
+                    const centerY = valeur.y * cellSize + cellSize / 2;
+                    
+                    // Position des yeux selon la direction
+                    let eye1X, eye1Y, eye2X, eye2Y, tongueX, tongueY, tongueAngle;
+                    
+                    if (direction === "RIGHT") {
+                        eye1X = centerX + 8; eye1Y = centerY - 8;
+                        eye2X = centerX + 8; eye2Y = centerY + 8;
+                        tongueX = centerX + cellSize / 2 - 2; tongueY = centerY;
+                        tongueAngle = 0;
+                    } else if (direction === "LEFT") {
+                        eye1X = centerX - 8; eye1Y = centerY - 8;
+                        eye2X = centerX - 8; eye2Y = centerY + 8;
+                        tongueX = centerX - cellSize / 2 + 2; tongueY = centerY;
+                        tongueAngle = Math.PI;
+                    } else if (direction === "UP") {
+                        eye1X = centerX - 8; eye1Y = centerY - 8;
+                        eye2X = centerX + 8; eye2Y = centerY - 8;
+                        tongueX = centerX; tongueY = centerY - cellSize / 2 + 2;
+                        tongueAngle = -Math.PI / 2;
+                    } else { // DOWN
+                        eye1X = centerX - 8; eye1Y = centerY + 8;
+                        eye2X = centerX + 8; eye2Y = centerY + 8;
+                        tongueX = centerX; tongueY = centerY + cellSize / 2 - 2;
+                        tongueAngle = Math.PI / 2;
+                    }
+                    
+                    // Langue fourchue
+                    ctx.save();
+                    ctx.translate(tongueX, tongueY);
+                    ctx.rotate(tongueAngle);
+                    
+                    ctx.strokeStyle = "#ff3366";
+                    ctx.lineWidth = 2;
+                    ctx.lineCap = "round";
+                    
+                    // Langue principale
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.lineTo(12, 0);
+                    ctx.stroke();
+                    
+                    // Fourche gauche
+                    ctx.beginPath();
+                    ctx.moveTo(12, 0);
+                    ctx.lineTo(16, -3);
+                    ctx.stroke();
+                    
+                    // Fourche droite
+                    ctx.beginPath();
+                    ctx.moveTo(12, 0);
+                    ctx.lineTo(16, 3);
+                    ctx.stroke();
+                    
+                    ctx.restore();
+                    
+                    // Yeux
+                    ctx.fillStyle = "#ffffff";
+                    ctx.beginPath();
+                    ctx.arc(eye1X, eye1Y, 4, 0, Math.PI * 2);
+                    ctx.fill();
+                    
+                    ctx.beginPath();
+                    ctx.arc(eye2X, eye2Y, 4, 0, Math.PI * 2);
+                    ctx.fill();
+                    
+                    // Pupilles
+                    ctx.fillStyle = "#000000";
+                    ctx.beginPath();
+                    ctx.arc(eye1X, eye1Y, 2, 0, Math.PI * 2);
+                    ctx.fill();
+                    
+                    ctx.beginPath();
+                    ctx.arc(eye2X, eye2Y, 2, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+
+            // Pomme avec effet brillant
+            ctx.shadowColor = "rgba(255, 0, 0, 0.7)";
+            ctx.shadowBlur = 20;
+            
+            const appleGradient = ctx.createRadialGradient(
+                coordsapple.x * cellSize + cellSize / 3,
+                coordsapple.y * cellSize + cellSize / 3,
+                0,
+                coordsapple.x * cellSize + cellSize / 2,
+                coordsapple.y * cellSize + cellSize / 2,
+                cellSize / 2
+            );
+            appleGradient.addColorStop(0, "#ff6666");
+            appleGradient.addColorStop(0.5, "#ff0000");
+            appleGradient.addColorStop(1, "#cc0000");
+            
+            ctx.fillStyle = appleGradient;
+            
+            const appleX = coordsapple.x * cellSize + cellSize / 2;
+            const appleY = coordsapple.y * cellSize + cellSize / 2;
+            const appleRadius = (cellSize - 8) / 2;
+            
+            ctx.beginPath();
+            ctx.arc(appleX, appleY, appleRadius, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Reset shadow
+            ctx.shadowColor = "transparent";
+            ctx.shadowBlur = 0;
+        }
+
+        function loop(){
+            loopID = setInterval(() => {
+                snake();
+                avance();
+                draw();
+            }, 250);
+        }
+
+        function snake() {
+            document.addEventListener("keydown", function (event) {
+
+                // ➤ Démarrer le jeu au premier appui sur une flèche
+                if (!started && (event.key === "ArrowUp" || event.key === "ArrowDown" ||
+                                event.key === "ArrowLeft" || event.key === "ArrowRight")) {
+                    started = true;
+                    loop();   // on lance la boucle ici
+                }
+
+                switch (event.key) {
+                    case "ArrowUp":
+                        if (direction !== "DOWN"){
+                            direction = "UP";
+                        }
+                        break;
+
+                    case "ArrowDown":
+                        if (direction !== "UP"){
+                            direction = "DOWN";
+                        }
+                        break;
+                
+                    case "ArrowLeft":
+                        if (direction !== "RIGHT"){
+                            direction = "LEFT";
+                        }
+                        break;
+
+                    case "ArrowRight":
+                        if (direction !== "LEFT"){
+                            direction = "RIGHT";
+                        }
+                        break;
+                }
+            });
+        }
+
+
+        //coords[0].x +=10
+        /* let coords = [
+        { x: 5, y: 0 },
+        { x: 5, y: 1 },
+        { x: 4, y: 2 }
+        ]; */
+
+        function isDead(newHead) {
+            // 1. Touche un bord
+            if (
+                newHead.x < 0 ||
+                newHead.y < 0 ||
+                newHead.x >= gridWidth ||
+                newHead.y >= gridHeight
+            ) {
+                return true;
+            }
+
+            // 2. Se mord soi-même
+            for (let segment of coords) {
+                if (segment.x === newHead.x && segment.y === newHead.y) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        function gameOver() {
+            clearInterval(loopID); // stoppe la boucle
+            alert("Perdu ! Score: " + score);
+        }
+
+        function restartGame() {
+            // Arrêter la boucle si elle tourne
+            if (loopID) {
+                clearInterval(loopID);
+            }
+            
+            // Réinitialiser toutes les variables
+            direction = "RIGHT";
+            coords = [
+                { x: 1, y: 7 },
+                { x: 2, y: 7 },
+                { x: 3, y: 7 }
+            ];
+            started = false;
+            score = 0;
+            document.getElementById("score").textContent = score;
+            
+            // Repositionner la pomme
+            apple();
+            
+            // Redessiner
+            draw();
+        }
+
+
+        function avance() {
+            const head = coords[coords.length - 1];
+            let newHead = { x: head.x, y: head.y };
+
+            if (direction === "UP")    newHead.y -= 1;
+            if (direction === "DOWN")  newHead.y += 1;
+            if (direction === "LEFT")  newHead.x -= 1;
+            if (direction === "RIGHT") newHead.x += 1;
+
+            // 👉 ici on vérifie si on meurt AVANT de pousser la tête
+            if (isDead(newHead)) {
+                gameOver();
+                return;
+            }
+            coords.push(newHead);
+            
+            if (coordsapple.x === newHead.x && coordsapple.y === newHead.y) {
+                score++;
+                document.getElementById("score").textContent = score;
+                apple();
+            }
+            else{
+                coords.shift();
+            }
+        }
+
+        // Ouvrir/Fermer avec les touches du clavier
+        document.addEventListener('keydown', function(event) {
+            // Fermer avec Échap
+            if (event.key === 'Escape') {
+                const modals = document.getElementsByClassName('modal');
+                for (let modal of modals) {
+                    modal.style.display = 'none';
+                }
+                return;
+            }
+            
+            // Vérifier le code Secret
+            if (event.key === CodeSecret[secretIndex]) {
+                secretIndex++;
+                
+                // Si le code est complet
+                if (secretIndex === CodeSecret.length) {
+                    openModal('modal'); // Ouvre la fenêtre d'alerte
+                    secretIndex = 0; // Réinitialiser
+                    document.getElementById("score").textContent = score;
+                    snake();
+
+                    // Initial sizing and resize handling (only when modal visible)
+                    function handleResize() {
+                        if (document.getElementById('modal').style.display === 'block') {
+                            resizeCanvas();
+                        }
+                    }
+                    window.addEventListener('resize', handleResize);
+                }
+            } else {
+                secretIndex = 0; // Réinitialiser si mauvaise touche
+            }
+        });
+
+            // Smooth scroll back to top
+        document.addEventListener('DOMContentLoaded', () => {
+            const backToTopLink = document.querySelector('.back-to-top');
+            if (!backToTopLink) return;
+
+            backToTopLink.addEventListener('click', (event) => {
+                event.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+
+</html>
